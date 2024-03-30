@@ -67,7 +67,6 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  /* margin-left: 76px; */
 }
 
 .header-address {
@@ -95,6 +94,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:hover,
@@ -116,7 +117,7 @@ img {
 /* -------------------------------------- */
 
 /* ---------------  HERO --------------- */
-.hero {
+.hero-container {
   background-color: #2e2f42;
   padding-bottom: 188px;
   padding-bottom: 188px;
@@ -188,7 +189,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .advantages-list-text {
